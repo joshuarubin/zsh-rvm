@@ -1,5 +1,5 @@
 if [[ -s "$HOME/.rvm/scripts/rvm" ]]; then
-  PATH="$HOME/.rvm/bin:$PATH"
+  path[1,0]="$HOME/.rvm/bin"
   source "$HOME/.rvm/scripts/rvm"
 
   if
